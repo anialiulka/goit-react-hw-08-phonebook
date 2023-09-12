@@ -11,7 +11,7 @@ export const ContactElement = () => {
   const deleteContact = id => dispatch(deleteContactInfo(id));
   return contacts.map(contact => (
     <li className={css.listItem} key={contact.id}>
-      {contact.name} : {contact.phone}
+      {contact.name} : {contact.number}
       <button className={css.button} onClick={() => deleteContact(contact.id)}>
         Delete
       </button>
