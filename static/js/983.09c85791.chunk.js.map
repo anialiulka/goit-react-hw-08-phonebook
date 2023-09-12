@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/983.09c85791.chunk.js","mappings":"0JAIA,UAJiB,WACf,OAAO,iDACR,C","sources":["pages/HomePage.jsx"],"sourcesContent":["const HomePage = () => {\n  return <div>Welcome to contacts!</div>;\n};\n\nexport default HomePage;\n"],"names":[],"sourceRoot":""}
